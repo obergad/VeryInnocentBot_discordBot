@@ -1,0 +1,24 @@
+{
+  "name": "veryinnocentbot_discordbot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obergad/VeryInnocentBot_discordBot.git"
+  },
+  "author": "Adam Oberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obergad/VeryInnocentBot_discordBot/issues"
+  },
+  "homepage": "https://github.com/obergad/VeryInnocentBot_discordBot#readme"
+}

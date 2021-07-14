@@ -15,8 +15,15 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('pong!');
+  if (msg.content) {
+    var rngNum = Math.floor(Math.random() * 10);
+    if(rngNum === 5){
+      msg.react('🍆');
+      console.log("Yes eggplant cuz", rngNum);
+    }
+    else{
+      console.log("No eggplant cuz", rngNum);
+    }
   }
 });
 
